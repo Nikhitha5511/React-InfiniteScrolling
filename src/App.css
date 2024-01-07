@@ -45,3 +45,19 @@ h1{
   margin-right: 10px;
 
 }
+@media (max-width: 768px) {
+  .image-container img{
+   width:400px;
+   height:400px;
+  }
+  .image-container{
+    width:410px;
+    height:410px;
+  }
+  .image-gallery{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
