@@ -1,0 +1,47 @@
+
+
+.image-container{
+  width:600px;
+  height:689px;
+  border:1px solid black;
+  margin: 8px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img{
+  width:600px;
+  height:600px;
+}
+
+.image-text{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1{
+  text-align: center;
+  color:green;
+  animation-name: identifier;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  background-color: white;
+  height:50px;
+  margin-top: 0;
+
+}
+@keyframes identifier {
+  from{background-color: pink;}
+  to{background-color: violet;}
+}
+
+.image-gallery{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; 
+  overflow-x: hidden;
+  margin-right: 10px;
+
+}
